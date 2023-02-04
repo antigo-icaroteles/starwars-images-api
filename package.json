@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "yarn build && node dist/server.js",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev --transpile-only src/server.ts"
   },
   "dependencies": {
